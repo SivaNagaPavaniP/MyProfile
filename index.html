@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>P. Siva Naga Pavani | SQL Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+height:100vh;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:15px;
+}
+
+.hero h2{
+color:#7bdff2;
+font-weight:400;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 30px;
+background:#00bcd4;
+color:white;
+text-decoration:none;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0288d1;
+transform:scale(1.05);
+}
+
+nav{
+position:fixed;
+width:100%;
+background:#203a43;
+display:flex;
+justify-content:center;
+padding:15px;
+z-index:999;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 18px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00e5ff;
+}
+
+section{
+padding:80px 10%;
+}
+
+section h2{
+text-align:center;
+font-size:36px;
+margin-bottom:40px;
+color:#203a43;
+}
+
+.about{
+text-align:center;
+font-size:18px;
+line-height:1.8;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#1976d2;
+margin-bottom:15px;
+}
+
+.timeline{
+max-width:900px;
+margin:auto;
+}
+
+.timeline-item{
+background:white;
+padding:25px;
+margin-bottom:25px;
+border-left:6px solid #2196f3;
+border-radius:8px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.timeline-item h3{
+color:#1565c0;
+}
+
+.timeline-item span{
+font-size:14px;
+color:gray;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.project{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.project:hover{
+transform:translateY(-10px);
+}
+
+.project h3{
+margin-bottom:15px;
+color:#0d47a1;
+}
+
+ul{
+padding-left:20px;
+line-height:2;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:15px;
+font-size:18px;
+}
+
+footer{
+background:#203a43;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+.fade{
+opacity:0;
+transform:translateY(40px);
+transition:1s;
+}
+
+.fade.show{
+opacity:1;
+transform:translateY(0);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.hero h2{
+font-size:20px;
+}
+
+nav{
+flex-wrap:wrap;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="#about">About</a>
+
+<a href="#skills">Skills</a>
+
+<a href="#experience">Experience</a>
+
+<a href="#projects">Projects</a>
+
+<a href="#achievements">Achievements</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+<header>
+
+<div class="hero">
+
+<h1>P. Siva Naga Pavani</h1>
+
+<h2>SQL Developer | PostgreSQL | SQL Server | ETL | SSRS</h2>
+
+<p>
+
+Experienced SQL Developer with 4+ years of expertise in SQL Server,
+PostgreSQL, ETL Processes, Database Development,
+SSRS Reporting, Performance Tuning, Stored Procedures,
+Functions, Triggers, Views and SQL Server to PostgreSQL Migration.
+
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+</header>
+
+<section id="about" class="fade">
+
+<h2>About Me</h2>
+
+<div class="about">
+
+I am an experienced SQL Developer with strong expertise in SQL Server,
+PostgreSQL, ETL Processes, SSRS Reporting, Query Optimization,
+Stored Procedures, Views, Functions, Triggers and Database Migration.
+
+I have successfully worked on enterprise applications and multiple
+government projects, delivering optimized database solutions,
+reporting systems, and high-performance SQL applications.
+
+</div>
+
+</section>
+
+<section id="skills" class="fade">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<div class="card">
+
+<h3>Databases</h3>
+
+<p>SQL Server 2008 / 2012</p>
+
+<p>PostgreSQL</p>
+
+</div>
+
+<div class="card">
+
+<h3>Languages</h3>
+
+<p>SQL</p>
+
+<p>T-SQL</p>
+
+<p>PL/pgSQL</p>
+
+</div>
+
+<div class="card">
+
+<h3>Tools</h3>
+
+<p>SSMS</p>
+
+<p>pgAdmin</p>
+
+<p>DBeaver</p>
+
+</div>
+
+<div class="card">
+
+<h3>Expertise</h3>
+
+<p>ETL</p>
+
+<p>SSRS Reports</p>
+
+<p>Performance Tuning</p>
+
+<p>Database Migration</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="experience" class="fade">
+
+<h2>Professional Experience</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>Software Engineer</h3>
+
+<h4>APT Online Ltd (Subsidiary of TCS)</h4>
+
+<span>September 2021 - Present</span>
+
+<ul>
+
+<li>Developed SQL Queries, Stored Procedures, Functions and Triggers.</li>
+
+<li>Created SSRS Reports for enterprise applications.</li>
+
+<li>Developed ETL Processes.</li>
+
+<li>Optimized SQL Queries and Database Performance.</li>
+
+<li>Worked on SQL Server to PostgreSQL Migration.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="projects" class="fade">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<h3>APSHCL</h3>
+
+<p>Developed SSRS Reports for housing scheme monitoring and optimized SQL datasets.</p>
+
+</div>
+
+<div class="project">
+
+<h3>AMTS</h3>
+
+<p>Developed reports for Asset Management Tool and production support.</p>
+
+</div>
+
+<div class="project">
+
+<h3>APRR</h3>
+
+<p>Implemented reporting enhancements and optimized stored procedures.</p>
+
+</div>
+
+<div class="project">
+
+<h3>APCRDA</h3>
+
+<p>Infrastructure monitoring reports, query tuning and data validation.</p>
+
+</div>
+
+<div class="project">
+
+<h3>APPCB</h3>
+
+<p>Developed environmental compliance reports and SQL procedures.</p>
+
+</div>
+
+<div class="project">
+
+<h3>APCCE</h3>
+
+<p>Developed ETL Processes and SQL Server to PostgreSQL migration.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="achievements" class="fade">
+
+<h2>Achievements</h2>
+
+<ul>
+
+<li>Successfully completed SQL Server to PostgreSQL Migration projects.</li>
+
+<li>Developed SSRS Reports for multiple Government Projects.</li>
+
+<li>Optimized SQL Queries and Database Performance.</li>
+
+<li>Designed ETL Solutions for Data Integration.</li>
+
+<li>Strong expertise in Stored Procedures, Views, Functions and Triggers.</li>
+
+</ul>
+
+</section>
+
+<section id="contact" class="fade">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p><strong>Name:</strong> P. Siva Naga Pavani</p>
+
+<p><strong>Email:</strong> pavanip389@gmail.com</p>
+
+<p><strong>Phone:</strong> +91 6303231225</p>
+
+<p><strong>LinkedIn:</strong> Add Your LinkedIn URL</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Thank You!</h3>
+
+<p>© 2025 P. Siva Naga Pavani | SQL Developer</p>
+
+</footer>
+
+<script>
+
+const observer=new IntersectionObserver(entries=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+});
+
+document.querySelectorAll(".fade").forEach(el=>observer.observe(el));
+
+</script>
+
+</body>
+</html>
